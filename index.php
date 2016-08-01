@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_URI'] == '/') {
     $module = 'index';
 } else {
 
-    $URI_Path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $URI_Path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) ;
 
 
 
